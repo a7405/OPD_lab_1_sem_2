@@ -2,7 +2,8 @@ name: Test and Build Project
 
 on:
   workflow_dispatch:
-  push: 
+  push:
+    branches: [ main ] 
 
 #  Разрешения на запись в Checks API
 permissions:
